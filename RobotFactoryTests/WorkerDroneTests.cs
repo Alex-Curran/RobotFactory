@@ -8,11 +8,13 @@ using RobotFactory;
 
 namespace RobotFactoryTests
 {
-   [TestFixture]
-    internal class WorkerDroneTests {
+    [TestFixture]
+    internal class WorkerDroneTests
+    {
 
         [Test]
-        public void WorkerDroneIdentifiesRobotPart() {
+        public void WorkerDroneIdentifiesRobotPart()
+        {
             RobotPart robotPart = new MockedAssembly();
             var workerDrone = new MockedWorkerDrone();
 
@@ -24,5 +26,5 @@ namespace RobotFactoryTests
             transportMechanism = workerDrone.IdentifyRobotPart(robotPart);
             Assert.IsInstanceOf<ArmouryTransportMechanism>(transportMechanism);
         }
-
+    }
 }
