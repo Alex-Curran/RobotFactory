@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace RobotFactory
 {
-    public abstract class Supplier
+    public enum RobotPartCategory
     {
-        public List<RobotPart> RobotParts { get; set; }
+        Assembly,
+        Weapon
     }
+    
 }

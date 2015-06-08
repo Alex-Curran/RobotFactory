@@ -39,6 +39,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeliveryBay.cs" />
+    <Compile Include="FactoryRoom.cs" />
+    <Compile Include="RobotPartCatergory.cs" />
+    <Compile Include="RobotParts.cs" />
+    <Compile Include="RobotPartSupplier.cs" />
     <Compile Include="Supplier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

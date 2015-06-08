@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RobotFactory
 {
-    public abstract class Supplier
+    public class DeliveryBay : FactoryRoom
     {
         public List<RobotPart> RobotParts { get; set; }
     }
